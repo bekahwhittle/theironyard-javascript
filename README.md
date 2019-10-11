@@ -14,6 +14,9 @@
 * CSS
   - Sass
   - Less
-  
- 
+
+##### Instructor 👨🏻‍🏫
+
+##### [Justin Herrick](https://github.com/jah2488)
+
 > I received my certificate of completion in May 2017. 👩🏼‍🎓
