@@ -1,0 +1,85 @@
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background: #ffc4c2;
+  margin-top: 0;
+  position: absolute;
+}
+.text {
+  color: rgb(145, 145, 145);
+}
+.event {
+  margin: auto;
+  padding: 10px;
+}
+
+.artist-img {
+  float: left;
+  height: 130px;
+  width: 125px;
+}
+.fa-bars {
+  color: #fafafa;
+  padding-left: 6px;
+  padding-top: 8px;
+}
+.user-img {
+  padding-right: 7px;
+  padding-top: 7px;
+  float: right;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+.musician-wrapper {
+  display: block;
+  width: 50%;
+  float: right;
+}
+.img-wrapper {
+  padding-right: 10px;
+  position: relative;
+  float: left;
+  display: block;
+}
+.content {
+  border-radius: 5px;
+  width: 88%;
+  height: 130px;
+  background-color: rgba(#fafafa, 0.19);
+  margin: auto;
+  margin-top: 45px;
+}
+.white {
+  display: block;
+  width: 45%;
+  height: 115px;
+  background-color: #fafafa;
+  float: right;
+}
+.audio-player {
+  margin: auto;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.headline{
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  color: #454545;
+}
+.venue {
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #7a7a7a;
+}
+.date {
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #ffc4c2;
+}

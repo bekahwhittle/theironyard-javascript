@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(to right, rgba(#ffa3cb, 0.88), rgba(#FFC4C2, 0.88));
+  margin: 0;
+  padding: 0;
+}
+
+.img-container {
+  text-align: center;
+  width: 100%;
+}
+.music-wave-icon {
+  width: 60%;
+
+  path {
+    fill: #FAFAFA;
+  }
+}
+.cta {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 170px;
+  font-size: 23px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #fafafa;
+  text-align: center;
+}
+.input-wrapper {
+  padding-bottom: 20px;
+  padding-top: 60px;
+  text-align: center;
+}
+.location-input {
+  border-radius: 3px;
+  background: transparent;
+  border: none;
+  border-bottom: solid 4px #fafafa;
+  transition: border 0.3s;
+  color: #FAFAFA;
+  font-size: 20px;
+  padding: 10px;
+}
+::-webkit-input-placeholder {
+  color: rgba(#fafafa, 0.62);
+}
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  color: #89e2d4;
+}
+.location-input:focus {
+  outline: none;
+  border-bottom: solid 4px rgba(#89e2d4, 0.9);
+}
+.btn-wrapper {
+  padding-bottom: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+.discover-btn {
+  height: 50px;
+  width: 180px;
+  font-size: 23px;
+  color: #fafafa;
+  transition: 0.5s;
+  text-align: center;
+  border-radius: 7px;
+  background-color: rgba(#89e2d4, 0.88);
+  border: none;
+  padding: 5px 32px 5px 32px;
+  letter-spacing: 1.2px;
+  transition: 0.3s;
+}
+.discover-btn:hover {
+  cursor: pointer;
+  background-color: rgba(#6fbfb3, 1);
+}
