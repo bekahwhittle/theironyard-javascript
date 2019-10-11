@@ -1,0 +1,37 @@
+.company-logo {
+  padding-top: 7%;
+  color: $color-primary;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  text-align: center;
+}
+.header-slogan {
+  padding-top: 0.8%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 4.9em;
+}
+.header-icons {
+  text-align: center;
+  padding: 0;
+  letter-spacing: 0.4em;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+.header-nav {
+  text-align: center;
+  padding: 0;
+  letter-spacing: 0.4em;
+
+  .header-item {
+    @include header-nav-border(18%);
+  }
+}
+@media screen and (max-width: 510px) {
+  .name-header {
+    display: none;
+  }
+}

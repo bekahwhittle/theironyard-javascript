@@ -1,0 +1,68 @@
+body {
+  background:linear-gradient(to left, #FFAFBD , #ffc3a0);
+}
+.toDoItem {
+  background-color: rgba(249, 224, 226, 0.8);
+  border-radius: 5px;
+  color: #787878;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+  padding-left: 12px;
+  margin: 0 auto 10px auto;
+  line-height: 48px;
+  list-style: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+.add {
+  border-bottom-color: none;
+  border-left-color: none;
+  border-right-color: none;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  background-color: #787878;
+  border-radius: 5px;
+  color: rgba(249, 224, 226, 0.9);
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+  padding-left: 12px;
+  margin-left: 450px;
+  display: inline-block;
+  line-height: 48px;
+  list-style: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+.addItem {
+  font-weight: bolder;
+  font-family: 'ariel' sans-serif;
+  font-size: 25px;
+  color: rgba(241, 218, 218, 0.93);
+  transition: 0.5s;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 7px;
+  background-color: inherit;
+  border: rgba(241, 218, 218, 0.93) 2px solid;
+  padding: 5px 32px 5px 32px;
+  letter-spacing: 1.2px;
+}
+.addItem:hover {
+  transition: 0.5s;
+  background-color: #f9d8db;
+  color: #c65b65;
+}
+.delete {
+  color: red;
+  background: none;
+  border: none;
+  outline: 0;
+  line-height: .85rem;
+  font-size: 1rem;
+  margin: auto;
+}

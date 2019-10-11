@@ -1,0 +1,63 @@
+/* a lot of trial and error - added to much code in some areas*/
+/* trying to clean it up */
+
+/* sets octocats in order and positioned evenly*/
+.octocat {
+  display: inline-block;
+  width: 31.3%;
+  padding: 8px;
+}
+/* sets the border and rounds the edges */
+.octocat img {
+  border: 1.5px solid #cacaca;
+  border-radius: 3px;
+  width: 100%;
+}
+/* sets the authors in order and makes them smaller */
+.authors img {
+  border: none;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+/* takes away the dot from li and helps keep them in position */
+.authors {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+/* puts # before each number and sets color */
+.image-number::before {
+  color: #cacaca;
+  content: '#'
+}
+/* specializes the number */
+.image-number {
+  color: #cacaca;
+  font-weight: bold;
+}
+/* bolds words that aren't the link */
+span {
+  font-weight: bold;
+  color: #a5a2a2;
+}
+/* takes away underline from link  */
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/* moves the caption up */
+.image-caption {
+  float: right;
+  font-weight: bold;
+  margin-top: -7px;
+  color: black;
+}
+/* positions footer to be more inline */
+.image-footer {
+  padding-top: 15px;
+  border-bottom: 1px solid #cacaca;
+  height: 25px;
+  padding-bottom: 8px;
+}

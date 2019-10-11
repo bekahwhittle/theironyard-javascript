@@ -1,0 +1,15 @@
+$color-primary: #46a1d7;
+$font-primary: "arial";
+$image-width-primary: 100%;
+
+@mixin header-nav-border ($width) {
+  border: 2px solid $color-primary;
+  width: $width;
+  padding-top: 2%;
+  display: inline-block;
+}
+
+@mixin image-container ($width) {
+  margin: 0 auto;
+  width: $width;
+}

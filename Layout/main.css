@@ -1,0 +1,182 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#main {
+  width: 600px;
+  margin: 0 auto;
+}
+.simple {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.fancy {
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border: solid blue 10px;
+}
+
+.relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+.absolute {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+}
+
+.container {
+  position: relative;
+}
+.nav4 {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+}
+.section4 {
+  /* position is static by default */
+  margin-left: 200px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+}
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+  height: 200px;
+}
+.container5 {
+  width: 40%;
+}
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+.after-box {
+  clear: left;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+  width: 50%;
+}
+.clearfix8 {
+  overflow: auto;
+  zoom: 1;
+  width: 50%;
+}
+.nav8 {
+  float: left;
+  width: 200px;
+}
+.section8{
+  margin-left: 200px;
+}
+.nav9 {
+  float: left;
+  width: 25%;
+}
+.section9 {
+  margin-left: 25%;
+}
+.clearfix9 {
+  overflow: auto;
+  zoom: 1;
+  width: 50%;
+}
+@media screen and (min-width:600px) {
+  .nav10 {
+    float: left;
+    width: 25%;
+  }
+  .section10 {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width:599px) {
+  .nav10 li {
+    display: inline;
+  }
+}
+.box11 {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  border-style: groove;
+  border-color: red;
+}
+.boxes {
+  border-style: dashed;
+  border-color: blue;
+}
+.nav12 {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+.section12 {
+  margin-left: 25%;
+}
+.column12 {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}
+.three-column {
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em
+}
+.initial {
+  flex: initial;
+  width: 200px;
+  min-width: 100px;
+}
+.none {
+  -webkit-flex: none;
+          flex: none;
+  width: 200px;
+}
+.flex1 {
+  -webkit-flex: 1;
+          flex: 1;
+}
+.flex2 {
+  -webkit-flex: 2;
+          flex: 2;
+}
+.vertical-container {
+  height: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.container14 {
+  display: -webkit-flex;
+  display: flex;
+}

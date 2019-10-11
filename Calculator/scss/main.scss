@@ -1,0 +1,27 @@
+body {
+  font-family: 'Lato';
+  font-weight: 300;
+}
+button {
+  font-family: 'Lato';
+  font-weight: 200;
+  background-color: #e0d09e;
+  border: none;
+  border-radius: 2px;
+  color: #505050;
+  transition: 0.3s;
+}
+button:focus {
+  outline: 0;
+}
+button:hover {
+  background-color: rgba(224, 208, 158, 0.62);
+}
+#display {
+  color: #7c7c7c;
+  margin: 0;
+  border-radius: 2px;
+  width: 100px;
+  background-color: rgba(255, 182, 189, 0.5);
+  height: 25px;
+}

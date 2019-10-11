@@ -1,0 +1,30 @@
+img {
+  width: 50%;
+}
+li {
+  margin: 0 auto;
+  display: inline-block;
+}
+a {
+  display: block;
+}
+.album {
+  display: none;
+}
+.selected {
+  display: block;
+}
+.albumCover {
+}
+.hidden {
+  display: none;
+}
+.home {
+}
+.current {
+  width: 50%;
+  background: black;
+}
+.large {
+  width: 100%;
+}
