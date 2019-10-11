@@ -1,0 +1,28 @@
+$big-font: 15rem;
+
+.hidden {
+  display: none;
+}
+.username {
+  border-bottom-color: none;
+  border-left-color: none;
+  border-right-color: none;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  background-color: #474A46;
+  line-height: 40px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 3px;
+  margin: auto;
+  color: #AEBBB8;
+}
+
+html {
+    body {
+        margin: 0;
+        padding: 0;
+        background: #d0fbf3;
+    }
+}

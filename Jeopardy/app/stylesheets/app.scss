@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffdde1;
+  font-family: Helvetica;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.title {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: #FAFAFA;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 45px;
+}
+
+.question-container {
+  display: inline-block;
+}
+
+.question {
+  list-style: none;
+}
+
+.value {
+  border-radius: 3px;
+  margin: auto;
+  display: inline-block;
+  padding: 18px 25px;
+  background-color: #5c5858;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  color: #FAFAFA;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+
+.value:hover {
+  background-color: #2e2e2e;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-question {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  height: 200px;
+  max-height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  font-size: 35px;
+  color: #5c5858;
+  transform: translate(-50%, -50%);
+  background: #FAFAFA;
+  box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.modal-background-cover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(236, 236, 236, 0.61);
+}
+
+.question-text {
+  padding: 40px;
+}
+.categoryH3{
+  color: #FAFAFA;
+}
+.answer-input {
+  background: #FAFAFA;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  color: #faaca8;
+  border-bottom: solid 2px #5c5858;
+  transition: border 0.3s;
+}
+
+.container-input {
+  padding-left: 115px;
+  padding-top: 15px;
+  margin: auto;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.answer-input:focus {
+  outline: none;
+  border-bottom: solid 2px #faaca8;
+}
+
+.login-form {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  border-radius: 7px;
+  position: relative;
+  z-index: 1;
+  background: #FAFAFA;
+  width: 70%;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 25px 5px rgba(128, 128, 128, 0.2);
+}
+
+.name-input {
+  background: #FAFAFA;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  color: #959595;
+  border-bottom: solid 2px #5c5858;
+  transition: border 0.3s;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.name-input:focus {
+  outline: none;
+  border-bottom: solid 2px #959595;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+}

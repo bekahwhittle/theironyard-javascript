@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #66d7b2, #bdfff3);
+  color: #3f4455;
+  font-family: Helvetica;
+}
+.wrap-container {
+  margin-top: 60px;
+}
+
+.container {
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+  background: #fafafa;
+  width: 700px;
+  height: 500px;
+  margin-top: 50px;
+  margin: 0 auto 100px;
+  padding-top: 20px;
+  text-align: center;
+  box-shadow: 0 0 25px 5px rgba(167, 167, 167, 0.2);
+}
+
+.slogan {
+  color: #3f4455;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.cta {
+  font-weight: lighter;
+  padding-right: 70px;
+  padding-left: 70px;
+  letter-spacing: .8px;
+  line-height: 20px;
+  color: #505050;
+}
+
+.btn-container {
+  margin-top: 60px;
+}
+
+.answer-input {
+  background: #fafafa;
+  font-size: 12px;
+  padding: 10px;
+  border: none;
+  color: #66d7b2;
+  border-bottom: solid 2px #5c5858;
+  transition: border 0.3s;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.answer-input:focus {
+  outline: none;
+  border-bottom: solid 2px #66d7b2;
+}
+
+.direction {
+  font-weight: lighter;
+  font-size: 10px;
+  color: #aaabac;
+  text-align: center;
+  margin-top: auto;
+  border-radius: 3px;
+  background-color: inherit;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:  none;
+  padding: 5px 32px 5px 32px;
+  letter-spacing: 1.2px;
+  transition: 0.3s;
+}
+.direction:hover {
+  color: #3f4455;
+  font-weight: normal;
+}
+.output {
+  color: #6a6f82;
+}
